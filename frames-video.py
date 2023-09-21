@@ -16,7 +16,7 @@ frame_files.sort(key=lambda x: int(re.search(r'\d+', x).group()))
 first_frame = cv2.imread(os.path.join(frames_folder, frame_files[0]))
 height, width, _ = first_frame.shape
 
-# Define the codec for MKV format (use 'XVID' for MKV)
+
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
 # Create a VideoWriter object
