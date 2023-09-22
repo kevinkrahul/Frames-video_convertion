@@ -1,13 +1,11 @@
 import cv2
 import os
 
-# Path to the video file
 video_path = '/media/kevin/Ubuntu/Frames-video/[EMBER] Kimetsu no Yaiba - Mugen Ressha-hen - 07.mkv'
 
-# Output directory for frames
 output_dir = '/media/kevin/Ubuntu/Frames-video/Frames'
 
-# Create the output directory if it doesn't exist
+
 os.makedirs(output_dir, exist_ok=True)
 
 # Open the video file
